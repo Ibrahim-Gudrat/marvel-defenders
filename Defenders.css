@@ -11,8 +11,8 @@ p {
     font-weight: 500;
     padding: 1em;
     color: rgb(145, 35, 35);
-    background-color: #916c6c;
-    opacity: 0.7;
+    border-color: rgb(218, 230, 55);
+    opacity: 0.8;
     border: solid 1px rgb(218, 230, 55);
 
     transition: all 1s;
@@ -21,7 +21,7 @@ p {
 p:hover {
     opacity: 1;
     border-radius: 2em;
-    color: rgb(53, 0, 0);
+    color: rgb(92, 8, 8);
     box-shadow: 0.4em 0.4em 3em rgb(218, 230, 55);
 
 }
