@@ -11,17 +11,18 @@ p {
     font-weight: 500;
     padding: 1em;
     color: rgb(145, 35, 35);
-    background-color: rgb(196, 49, 49);
+    background-color: rgb(145, 108, 108);
+    opacity: 0.7;
     border: solid 1px rgb(218, 230, 55);
-    text-shadow: ;
 
     transition: all 1s;
 }
 
 p:hover {
+    opacity: 1;
     border-radius: 2em;
     color: rgb(53, 0, 0);
-    box-shadow: 0.5em 0.5em 3em rgb(218, 230, 55);
+    box-shadow: 0.4em 0.4em 3em rgb(218, 230, 55);
 
 }
 
