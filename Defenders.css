@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(190, 0, 0);
+}
+
+p {
+    width: 450px;
+    height: 500px;
+    font-size: larger;
+    text-align: justify;
+    line-height: 1.2em;
+    font-weight: 500;
+    padding: 1em;
+    color: rgb(145, 35, 35);
+    background-color: rgb(196, 49, 49);
+    border: solid 1px rgb(218, 230, 55);
+    text-shadow: ;
+
+    transition: all 1s;
+}
+
+p:hover {
+    border-radius: 2em;
+    color: rgb(53, 0, 0);
+    box-shadow: 0.5em 0.5em 3em rgb(218, 230, 55);
+
+}
+
+
+
+img {
+    transition: all 1s;
+}
+
+img:hover {
+    border-radius: 2em;
+    transform: rotateY(180deg);
+    border: 1px solid rgb(218, 230, 55);
+}
+
+
+
+h6 {
+    color: #000;
+    font-family: 'Reggae One', cursive;
+    transition: all 1s;
+}
+
+h6:hover {
+    margin-top: 10px;
+    
+
+    color: rgb(218, 230, 55);
+    /* transform: translateX(2.5em); */
+}
+
+
+
+@media (min-width: 1200px) {
+    .row {
+    margin-left: 11em;
+    margin-right: 11em;
+    }
+
+}
+
+
+
+.container {
+    background-image: url(https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg);
+}
+
+#footer {
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
