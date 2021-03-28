@@ -11,6 +11,7 @@ p {
     font-weight: 500;
     padding: 1em;
     color: rgb(145, 35, 35);
+    background-color: rgb(196, 49, 49);
     border-color: rgb(218, 230, 55);
     opacity: 0.8;
     border: solid 1px rgb(218, 230, 55);
